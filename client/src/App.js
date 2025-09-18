@@ -12,6 +12,7 @@ import Footer from './components/layout/Footer';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import PublicRoute from './components/auth/PublicRoute';
 import AdminRoute from './components/auth/AdminRoute';
+import ChatBot from './pages/ChatBot';  // ✅ Added ChatBot import
 
 // Pages
 import HomePage from './pages/HomePage';
@@ -138,7 +139,10 @@ function App() {
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
             </main>
-            
+
+            {/* Floating Chatbot visible everywhere */}
+            <ChatBot />  
+
             <Footer />
             
             {/* Toast Notifications */}

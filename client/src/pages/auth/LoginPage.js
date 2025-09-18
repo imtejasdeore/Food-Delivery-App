@@ -42,7 +42,7 @@ const LoginPage = () => {
         <div>
           <div className="flex justify-center">
             <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">FD</span>
+              <span className="text-white font-bold text-lg">5B</span>
             </div>
           </div>
           <h2 className="mt-6 text-center text-3xl font-bold text-gray-900">
@@ -149,7 +149,7 @@ const LoginPage = () => {
             </button>
           </div>
 
-          <div className="mt-6">
+          {/* <div className="mt-6">
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
                 <div className="w-full border-t border-gray-300" />
@@ -177,7 +177,7 @@ const LoginPage = () => {
                 <div className="text-gray-500">john@example.com</div>
               </button>
             </div>
-          </div>
+          </div> */}
         </form>
       </motion.div>
     </div>

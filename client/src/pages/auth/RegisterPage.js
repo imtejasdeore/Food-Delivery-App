@@ -120,7 +120,7 @@ const RegisterPage = () => {
         <div>
           <div className="flex justify-center">
             <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">FD</span>
+              <span className="text-white font-bold text-lg">5B</span>
             </div>
           </div>
           <h2 className="mt-6 text-center text-3xl font-bold text-gray-900">
